@@ -26,7 +26,7 @@ Partial Class Form1
         Me.btnDepositos = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
-        '
+        'HOLA MUNDO
         'btnDepositos
         '
         Me.btnDepositos.BackColor = System.Drawing.Color.Transparent
