@@ -124,6 +124,9 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Deposito Tarjeta.resx">
+      <DependentUpon>Deposito Tarjeta.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\TipoDeposito.resx">
       <DependentUpon>TipoDeposito.vb</DependentUpon>
     </EmbeddedResource>
