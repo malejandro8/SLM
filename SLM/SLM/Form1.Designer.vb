@@ -25,6 +25,7 @@ Partial Class Form1
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.btnDepositos = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.btnCerrar = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnDepositos
@@ -51,6 +52,17 @@ Partial Class Form1
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Depositos Bancarios"
         '
+        'btnCerrar
+        '
+        Me.btnCerrar.BackColor = System.Drawing.Color.SkyBlue
+        Me.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnCerrar.Location = New System.Drawing.Point(391, 415)
+        Me.btnCerrar.Name = "btnCerrar"
+        Me.btnCerrar.Size = New System.Drawing.Size(99, 23)
+        Me.btnCerrar.TabIndex = 2
+        Me.btnCerrar.Text = "Cerrar Programa"
+        Me.btnCerrar.UseVisualStyleBackColor = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -58,6 +70,7 @@ Partial Class Form1
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(502, 450)
         Me.ControlBox = False
+        Me.Controls.Add(Me.btnCerrar)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnDepositos)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -70,4 +83,5 @@ Partial Class Form1
 
     Friend WithEvents btnDepositos As Button
     Friend WithEvents Label1 As Label
+    Friend WithEvents btnCerrar As Button
 End Class
