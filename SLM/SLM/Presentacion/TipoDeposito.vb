@@ -1,3 +1,3 @@
-﻿Public Class TipoDeposito
+﻿Public Class frmTipoDeposito
 
 End Class
