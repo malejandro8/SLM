@@ -43,7 +43,7 @@ Partial Class Form1
         Me.btnDepositos.TabIndex = 0
         Me.btnDepositos.UseVisualStyleBackColor = False
         '
-        'Label1
+        'ejemplo erick
         '
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(11, 56)
